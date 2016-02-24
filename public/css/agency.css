@@ -128,40 +128,40 @@ width: 11px;}
 
 @media (min-width:321px){
     header {
-        height:590px;
+        height:540px;
     }
     header .intro-text {
-        padding-top:150px;
+        padding-top:100px;
         padding-bottom:150px;
     }
 
 }
 @media (min-width:360px){
     header {
-        height:640px;
+        height:590px;
     }
     header .intro-text {
-        padding-top:240px;
+        padding-top:190px;
         padding-bottom:150px;
     }
 
 }
 @media (min-width:375px){
     header {
-        height:628px;
+        height:578px;
     }
     header .intro-text {
-        padding-top:205px;
+        padding-top:155px;
         padding-bottom:150px;
     }
 
 }
 @media (min-width:414px){
     header {
-        height:736px;
+        height:686px;
     }
     header .intro-text {
-        padding-top:245px;
+        padding-top:195px;
         padding-bottom:150px;
     }
 }
