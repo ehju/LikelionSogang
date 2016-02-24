@@ -114,10 +114,7 @@ margin: 0 5px;
 width: 11px;}
 #testimonial .owl-carousel .owl-controls .owl-pagination  div.active{background: #5DCA88}
 
-.logo {
-    height:45px;
-    width:auto;
-}
+
 @media (max-width:320px){
     header {
         height:568px;
@@ -126,11 +123,7 @@ width: 11px;}
         padding-top:150px;
         padding-bottom:150px;
     }
-    .logo {
-        height:35px;
-        margin-top: 5px;
-        width:auto;
-    }
+
 }
 
 @media (min-width:321px){
@@ -141,11 +134,7 @@ width: 11px;}
         padding-top:150px;
         padding-bottom:150px;
     }
-    .logo {
-        height:35px;
-        margin-top: 5px;
-        width:auto;
-    }
+
 }
 @media (min-width:360px){
     header {
@@ -155,11 +144,7 @@ width: 11px;}
         padding-top:210px;
         padding-bottom:150px;
     }
-    .logo {
-        height:35px;
-        margin-top: 5px;
-        width:auto;
-    }
+
 }
 @media (min-width:375px){
     header {
@@ -169,11 +154,7 @@ width: 11px;}
         padding-top:205px;
         padding-bottom:150px;
     }
-    .logo {
-        height:35px;
-        margin-top: 5px;
-        width:auto;
-    }
+
 }
 @media (min-width:414px){
     header {
