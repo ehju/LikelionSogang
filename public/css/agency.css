@@ -121,10 +121,10 @@ width: 11px;}
 }
 @media (max-width:320px){
     header {
-        height:518px;
+        height:568px;
     }
     header .intro-text {
-        padding-top:100px;
+        padding-top:150px;
         padding-bottom:150px;
     }
     .logo {
