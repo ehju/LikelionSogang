@@ -38,7 +38,14 @@ h1,h2,h3,h4,h5,h6{font-family:"source-han-sans-korean";text-transform:uppercase;
     .navbar-default.navbar-shrink{background-color:#222;padding:10px 0}
     .navbar-default.navbar-shrink .navbar-brand{font-size:1.5em}
 }
-header{background-image:url(../img/header-bg.jpg);background-repeat:none;background-attachment:scroll;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;text-align:center;color:#fff}
+header{background-color:#1f1f1f; background-repeat:none;background-attachment:scroll;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;text-align:center;color:#fff}
+/*@media (max-width:768px){
+    header{background-image: url(../img/logo.png);}
+}
+@media (min-width:769px){
+    header{background-color:#1f1f1f;}
+}
+*/
 header .intro-text{padding-top:100px;padding-bottom:50px}
 header .intro-text .intro-lead-in{font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:22px;line-height:22px;margin-bottom:25px}
 header .intro-text .intro-heading{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:50px;line-height:50px;margin-bottom:25px}
@@ -129,6 +136,8 @@ width: 11px;}
         padding-top:150px;
         padding-bottom:150px;
     }
+    .intro-image {
+    }
 
 }
 
@@ -140,6 +149,8 @@ width: 11px;}
         padding-top:100px;
         padding-bottom:150px;
     }
+    .intro-image {
+    }
 
 }
 @media (min-width:360px){
@@ -150,7 +161,8 @@ width: 11px;}
         padding-top:190px;
         padding-bottom:150px;
     }
-
+    .intro-image {
+    }
 }
 @media (min-width:375px){
     header {
@@ -160,7 +172,8 @@ width: 11px;}
         padding-top:155px;
         padding-bottom:150px;
     }
-
+    .intro-image {
+    }
 }
 @media (min-width:414px){
     header {
@@ -169,6 +182,8 @@ width: 11px;}
     header .intro-text {
         padding-top:195px;
         padding-bottom:150px;
+    }
+    .intro-image {
     }
 }
 @media (min-width:768px){
@@ -179,6 +194,9 @@ width: 11px;}
         padding-top:350px;
         padding-bottom:150px;
     }
+    .intro-image {
+        padding-top:100px;
+    }
 }
 @media (min-width:1200px){
     header {
@@ -188,6 +206,9 @@ width: 11px;}
         padding-top:200px;
         padding-bottom:150px;
     }
+    .intro-image {
+        padding-top:100px;
+    }
 }
 
 @media (min-width:1440px){
@@ -195,7 +216,10 @@ width: 11px;}
         height:900px;
     }
     header .intro-text {
-        padding-top:350px;
+        padding-top:300px;
         padding-bottom:150px;
+    }
+    .intro-image {
+        padding-top:200px;
     }
 }
